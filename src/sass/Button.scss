@@ -22,4 +22,7 @@
         z-index: -1;
         background-color: v.$color2;
     }
+    &:active{
+        transform: translateY(4px);
+    }
 }
