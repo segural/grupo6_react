@@ -87,7 +87,7 @@ const App = () => {
           icon={<TiArrowRightOutline />}
           handleClick={nextClick} />
       </div>
-      <Footer />
+        <Footer />
     </div>
   )
 }
