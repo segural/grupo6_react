@@ -60,7 +60,6 @@ const App = () => {
   function prevClick(){
     (pokemonId===1)?
     setPokemon(1):
-    setPokemonId(1) :
     setPokemonId(pokemonId-1)
   }
 
