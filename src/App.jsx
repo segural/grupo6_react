@@ -1,6 +1,8 @@
 //Componentes
 import { Button } from './components/Button';
 import { Card } from './components/Card';
+import {Hero} from './components/Hero';
+import {Footer} from './components/Footer';
 //Styles
 import './sass/App.scss'
 
@@ -57,7 +59,7 @@ const App = () => {
 
   function prevClick(){
     (pokemonId===1)?
-    setPokemonId =1:
+    setPokemonId(1) :
     setPokemonId(pokemonId-1)
   }
 
@@ -66,6 +68,7 @@ const App = () => {
   }
   return (
     <div className='app'>
+      <Hero />
       <div className={`card-container card${pokemonEvolutions.length}`}>
         {pokemonEvolutions.map(pokemon =>
         <Card 
@@ -84,6 +87,7 @@ const App = () => {
           icon={<TiArrowRightOutline />}
           handleClick={nextClick} />
       </div>
+      <Footer />
     </div>
   )
 }
