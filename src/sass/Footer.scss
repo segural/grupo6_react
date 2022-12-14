@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@use "variables" as v;
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Pacifico&display=swap');
 
 .nombres{
     font-family: 'La Belle Aurore', cursive;
-    font-size: 2.5rem;
-    color:white;
+    font-size: 2rem;
+    color: v.$color6;
+    margin-top: 75px;
 }
 
 .list-name{
@@ -12,4 +14,24 @@
     gap: 3rem;
     padding-left: 0;
     
+}
+
+.comision {
+    font-family: 'Pacifico', cursive;
+    background-color: v.$color1;
+    border: 1px solid v.$color2;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.comision p{
+    margin-left: 75px;
+}
+
+.listnames{
+    background-color: v.$color1;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid v.$color2;
 }

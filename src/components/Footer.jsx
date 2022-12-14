@@ -7,6 +7,10 @@ const Footer = () => {
    
         
 <div className='nombres'>
+    <div className='comision'>
+      <p>Grupo 6 - Comisión 22808 - React Codo a Codo 2022</p>
+    </div>
+      <div className='listnames'>
         <ul className="list-name">
             <li>Leslie</li>
             <li>Martin</li>
@@ -16,6 +20,7 @@ const Footer = () => {
             <li>Leandro</li>
             <li>Hebe</li>
         </ul>
+      </div>
 </div>
   )
 }
