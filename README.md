@@ -11,3 +11,12 @@ Se utilizo la importacion de Sass (estilos CSS) e iconos de "react-icons"
 
 Esperamos poder seguir aprendiendo esta tecnologia.
 Muchas gracias al profersor Gabriel Muñoz quien hizo posible que nos introduzcamos al conocimeiento de este framework de JS.
+
+
+- PEDRO ZARATE
+- LESLIE TOVAR
+- PALMA STIVALETTA
+- LUCIANO SEGURA
+- LUZ FOX
+- MARTIN VERSTRAETEN
+- CELESTE VILLAGRAN
