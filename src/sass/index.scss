@@ -1,10 +1,36 @@
-@use "variables" as v;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@use 'variables' as v;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: v.$color3; 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: v.$color3;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 30px;
+}
+nav h1 {
+  margin-right: auto;
+  color: #4682b4;
+  font-weight: bold;
+}
+
+a {
+  color: #4682b4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
 }
